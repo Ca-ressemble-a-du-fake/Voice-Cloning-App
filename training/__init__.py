@@ -1,3 +1,3 @@
 PUNCTUATION = list("_-!'(),.:;?")
 BASE_SYMBOLS = PUNCTUATION + [" "]
-DEFAULT_ALPHABET = list("_-!'(),.:;? ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzéàèçÇùüûïîêëâ")
+DEFAULT_ALPHABET = list("_-!'(),.:;? ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzéàèçÇùüûïîêëâô")
