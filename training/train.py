@@ -136,6 +136,7 @@ def train(
     # Load data
     logging.info("Loading data...")
     filepaths_and_text = load_metadata(metadata_path)
+    print("Les symboles sont:" + str(symbols))
     validate_dataset(filepaths_and_text, dataset_directory, symbols)
     train_files, test_files = train_test_split(filepaths_and_text, train_size)
     trainset = VoiceDataset(train_files, dataset_directory, symbols)
